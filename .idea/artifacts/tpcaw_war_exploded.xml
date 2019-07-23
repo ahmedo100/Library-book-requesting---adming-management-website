@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tpcaw:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/tpcaw_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tpcaw/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tpcaw" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.23-bin" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar_files (1)/javax.json-1.1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar_files (2)/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../mysql-connector-java.jar/mysql-connector-java.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../commons-codec-1.7.jar/commons-codec-1.7.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
